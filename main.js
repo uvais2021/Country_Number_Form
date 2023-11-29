@@ -31,6 +31,8 @@ function checkInputs() {
 
     if (uphone === '') {
         setErrorFor(phone, 'phone number should be filled')
+    }else if(uphone.length<=10){
+        setErrorFor(phone,'Please give minimum 10 numbers')
     }
     else {
         setSuccessFor(phone);
