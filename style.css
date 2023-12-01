@@ -17,18 +17,19 @@
 
 #name {
     margin: 10px 0;
-    padding: 5px 30px;
+    padding: 5px 20px !important;
     /* border-radius: 10px; */
     border: none;
-    width: 300px;
+    width: 250px;
     border-bottom: 0.5px solid gray;
 }
 
 input {
     margin: 10px 0;
-    padding: 5px 30px;
+    padding: 5px 8px !important;
     /* border-radius: 10px; */
     border: none;
+    margin-bottom: 5px !important;
     /* border-bottom: 0.5px solid gray; */
 }
 
@@ -39,7 +40,8 @@ input {
 
 .border-bottom {
     border-bottom: 0.5px solid gray;
-    width: 300px;
+    width: 255px;
+   
 }
 
 .Pre-Register {
@@ -88,7 +90,7 @@ select {
     margin: 10px 0;
     padding: 5px 30px;
     border: 0.5px solid red !important;
-    width: 240px;
+    width: 190px;
     border-bottom: 0.5px solid rgb(246, 0, 0);
 }
 
